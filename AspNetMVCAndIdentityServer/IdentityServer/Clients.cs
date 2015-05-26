@@ -15,10 +15,10 @@ namespace AspNetMVCAndIdentityServer.IdentityServer
                     ClientName = "MVC Client",
                     ClientId = "mvc",
                     Flow = Flows.Implicit,
-
+                    
                     RedirectUris = new List<string>
                     {
-                        "http://localhost:60362/"
+                        "https://localhost:44300/"
                     }
                 }
             };
